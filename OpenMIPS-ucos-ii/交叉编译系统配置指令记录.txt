@@ -1,0 +1,31 @@
+ssh -p 39920 root@connect.westb.seetacloud.com
+D/KzfJ+mWMq3
+
+opt/
+sudo apt-get update
+sudo apt-get install bzip2
+tar vfxj mips...
+
+.bashrc
+export PATH="$PATH:/opt/mips-4.3/bin"
+
+sudo apt update
+sudo apt install lib32z1 libc6-dev-i386
+
+mips-sde-elf-TABTAB
+
+sudo apt install make
+sudo apt install make-guile
+
+
+
+// ----
+Make会分别生成ucosii.bin和BootLoader.bin
+再通过MergeBin将二者合成OS.bin
+
+最终在根目录下输入make all即可得到二进制文件OS.bin
+
+
+// 执行逻辑
+通过UART发送字符
+通过GPIO读取用户选择的位置
